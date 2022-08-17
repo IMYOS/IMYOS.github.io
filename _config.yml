@@ -6,7 +6,7 @@ header-img: img/post-bg-desk.jpg
 email: 1115457735@qq.com
 description: "走向成功，走向未来"
 keyword: "人工语言, 国际语, 世界语, 三叶草国际语, 三叶语"
-url: "https://IMYOS.github.io"          # your host, for absolute URL
+url: "https://CRERE.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Sidebar settings
@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: d18b343dd9c7ca49518a                            #生成的clientID
   clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
-  repo: klovien.github.io    #仓库名称
-  owner: klovien    #github用户名
-  admin: klovien
+  repo: CRERE.github.io    #仓库名称
+  owner: IMYOS    #github用户名
+  admin: IMYOS
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
