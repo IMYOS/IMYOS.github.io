@@ -1,0 +1,65 @@
+/*试着写点全局属性*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    webkit-text-size-adjust: none;
+    font-weight: normal;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    background-color: wheat;
+    min-height: 100%;
+}
+
+ul {
+    list-style: none outside none;
+}
+
+a,
+a:focus,
+a:hover {
+    color:white;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    vertical-align: middle;
+}
+
+
+::-webkit-scrollbar { /*滚动条整体样式*/
+    width: 8px !important;; /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px !important;;
+    background: #ffffff !important;;
+    cursor: pointer !important;
+}
+
+::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+    border-radius: 5px !important;
+    -webkit-box-shadow: inset 0 0 5px rgba(240, 240, 240, .5) !important;;
+    background-image: linear-gradient(135deg, #1DE9B6 0%, #08c4db 72%, #057494 100%);
+    cursor: pointer !important;
+}
+
+::-webkit-scrollbar-track { /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(240, 240, 240, .5) !important;;
+    border-radius: 0 !important;;
+    background: transparent!important;;
+    cursor: pointer !important;
+}
+
+
