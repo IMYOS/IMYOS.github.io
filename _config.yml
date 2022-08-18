@@ -1,7 +1,7 @@
 # Site settings
 title: CRERE 棵一
 SEOTitle: 棵一🐃
-header-img: img/12.jpg
+header-img: img/12.png
 email: 1115457735@qq.com
 description: "走向成功，走向未来"
 keyword: "人工语言, 国际语, 世界语, 三叶草国际语, 三叶语"
@@ -11,7 +11,7 @@ baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you're going to be!"
-sidebar-avatar: /img/11.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-someone.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
