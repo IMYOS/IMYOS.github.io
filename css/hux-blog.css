@@ -684,11 +684,11 @@ pre code {
   border-bottom-left-radius: 5px;
 }
 .des{
-  font-size: 23px;
-  margin-top: 163px;
+  font-size: 23px !important;
+  margin-top: 163px !important;
   float: left;
   text-align: start;
-  margin-left: -125px;
+  margin-left: -125px !important;
 }
 footer {
   font-size: 20px;
